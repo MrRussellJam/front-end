@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>170202102282张剑权</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body id="body">
+
+    <div class="d1" style="position:absolute;z-index:-1;width:100%;height:100%;">
+            <img src="picture//tg.jpg" width="100%" height="100%" />
+    </div>
+
+        <div class="div-fa" id="div1">
+            <div class="leftTop"> <a href="C/C.html"> <img class="img" src="picture//5c.jpg"
+                onmouseover="showpic1(this);" onmouseout="lastpic1(this);" id="placeholder"> </a> </div>
+            <div class="rightTop"> <a href="HtmlCss/HtmlCss.html"> <img class="img" src="picture//fbc.jpg"
+                onmouseover="showpic2(this);" onmouseout="lastpic2(this);" id="placeholder1"> </a> </div>
+            <div class="leftFloot"> <a href="Java/Java.html"> <img class="img" src="picture//dc8.png"
+                onmouseover="showpic3(this);" onmouseout="lastpic3(this);" id="placeholder2"> </a> </div>
+            <div class="rightFloot"> <a href="JavaScript/JavaScript.html"> <img class="img" src="picture//5f.jpg"
+                onmouseover="showpic4(this);" onmouseout="lastpic4(this);" id="placeholder3"> </a> </div>
+        </div>
+    
+
+    
+
+    <style>
+
+        *{
+            margin:0px;
+            padding:0px;
+        }
+
+        .d1{
+            position:absolute; 
+            left:0px;
+            top:0px; 
+            width:100%; 
+            height:100%;
+            z-index:-1;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+        .div-fa{
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            margin-top: 8%;
+        }
+
+        .leftTop{/*
+            margin-left: 0%;
+            margin-top: 0%;*/
+            width: 50%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        .rightTop{/*
+            margin-top: 0%;
+            margin-right: 0%;*/
+            width: 50%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        .leftFloot{/*
+            margin-left: 0%;
+            margin-bottom: 0%;*/
+            width: 50%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        .rightFloot{/*
+            margin-right: 0%;
+            margin-bottom: 0%;*/
+            width: 50%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+    </style>
+
+    <script>
+       function getInfo(){ 
+            var s = ""; 
+            s += " 网页可见区域宽："+ document.body.offsetWidth + " (包括边线和滚动条的宽)"+"<br />";
+            s += " 网页可见区域高："+ document.body.offsetHeight + " (包括边线的宽)"+"<br />";
+
+        }
+
+        function showpic1(whichpic){
+            var placeholder = document.getElementById("placeholder");
+            placeholder.setAttribute("src","picture//c.jpg");
+        }function lastpic1(whichpic){
+            var placeholder = document.getElementById("placeholder");
+            placeholder.setAttribute("src","picture//5c.jpg");
+        }
+        
+        function showpic2(whichpic){
+            var placeholder = document.getElementById("placeholder1");
+            placeholder.setAttribute("src","picture//40c.jpg");
+        }function lastpic2(whichpic){
+            var placeholder = document.getElementById("placeholder1");
+            placeholder.setAttribute("src","picture//fbc.jpg");
+        }
+        
+        function showpic3(whichpic){
+            var placeholder = document.getElementById("placeholder2");
+            placeholder.setAttribute("src","picture//f0.jpg");
+        }function lastpic3(whichpic){
+            var placeholder = document.getElementById("placeholder2");
+            placeholder.setAttribute("src","picture//dc8.png");
+        }
+        
+        function showpic4(whichpic){
+            var placeholder = document.getElementById("placeholder3");
+            placeholder.setAttribute("src","picture//3303.jpg");
+        }function lastpic4(whichpic){
+            var placeholder = document.getElementById("placeholder3");
+            placeholder.setAttribute("src","picture//5f.jpg");
+        }
+
+
+
+    </script>
+</body>
+</html>
