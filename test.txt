@@ -1309,7 +1309,7 @@
       "iDex": 0,
       "iCon": 0,
       "iMaxStr": 0,
-      "iMxaxInt": 0,
+      "iMaxInt": 0,
       "iMaxDex": 0,
       "iMaxCon": 0,
       "iCri": 8,
@@ -47557,14 +47557,15 @@
       "iFinishTime": 0,
       "iLevel": 2,
       "iCurTotalExp": 60,
-      "iSkillPoint": 1,
+      "iSkillPoint": 0,
       "iResistPoint": 0,
       "iHurtTurn": 0,
       "passiveNodeList": [
         87900151,
         87900152,
         87000001,
-        87000002
+        87000002,
+        87900103
       ],
       "iChangeNPCID": 0,
       "iNpcID": 879001,
@@ -47643,6 +47644,12 @@
           "m_iAccumulationExp": 0,
           "bUse": true,
           "iSkillID": 870102
+        },
+        {
+          "iLevel": 10,
+          "m_iAccumulationExp": 0,
+          "bUse": true,
+          "iSkillID": 870103
         }
       ],
       "NeigongList": [
@@ -49839,17 +49846,17 @@
   ],
   "m_BackpackList": [
     {
-      "m_bNew": true,
+      "m_bNew": false,
       "m_iAmount": 1,
       "m_ItemID": 140006
     },
     {
-      "m_bNew": true,
+      "m_bNew": false,
       "m_iAmount": 1,
       "m_ItemID": 140002
     },
     {
-      "m_bNew": true,
+      "m_bNew": false,
       "m_iAmount": 1,
       "m_ItemID": 140117
     }
